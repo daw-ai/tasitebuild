@@ -98,9 +98,9 @@ function App() {
       <section className="pt-32 pb-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-4xl mx-auto">
-            <Badge className="mb-6 bg-gray-100 text-gray-800 hover:bg-gray-200">
-              🚀Unlock The Power Of Top 1% Tech
-            </Badge>
+            <p className="text-center text-gray-600 mb-8">
+            🚀Unlock The Power Of Top 1% Tech
+            </p>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Land Your Dream Tech Role in{' '}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -155,7 +155,7 @@ function App() {
             Our candidates have landed at these elite tech companies
           </p>
           <div className="overflow-hidden">
-            <div className="flex animate-scroll space-x-16 items-center">
+            <div className="flex animate-scroll space-x-8 items-center">
               {['Google', 'Meta', 'Apple', 'Netflix', 'Uber', 'Airbnb', 'Stripe', 'Shopify', 'Google', 'Meta', 'Apple', 'Netflix'].map((company, index) => (
                 <div key={index} className="text-center flex-shrink-0">
                   <div className="text-2xl font-bold text-gray-400 whitespace-nowrap">{company}</div>

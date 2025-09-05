@@ -31,6 +31,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 #root {
@@ -80,6 +81,10 @@ body {
 
 .max-w-4xl {
   max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem; /* Added padding */
+  padding-right: 2rem; /* Added padding */
 }
 
 .mx-auto {
@@ -123,6 +128,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .flex {
@@ -222,11 +230,11 @@ body {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 1.875rem; /* Increased line height */
 }
 
 .leading-relaxed {
-  line-height: 1.625;
+  line-height: 1.8; /* Increased line height */
 }
 
 .bg-blue-100 {
@@ -343,6 +351,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .bg-blue-600 {
@@ -410,8 +421,8 @@ body {
 }
 
 .from-blue-600 {
-  --tw-gradient-from: #007bff;
-  --tw-gradient-to: #007bff;
+  --tw-gradient-from: #2563eb;
+--tw-gradient-to: #7c3aed;
 }
 
 .to-purple-600 {
@@ -429,7 +440,7 @@ body {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2rem; /* Increased line height */
 }
 
 .flex-col {
@@ -603,6 +614,10 @@ body {
 
 .max-w-4xl {
   max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem; /* Added padding */
+  padding-right: 2rem; /* Added padding */
 }
 
 .font-bold {
@@ -637,11 +652,14 @@ body {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2rem; /* Increased line height */
 }
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .max-w-3xl {
@@ -754,7 +772,7 @@ body {
 }
 
 .leading-relaxed {
-  line-height: 1.625;
+  line-height: 1.8; /* Increased line height */
 }
 
 .bg-green-100 {
@@ -784,6 +802,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .text-sm {
@@ -935,11 +956,14 @@ body {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2rem; /* Increased line height */
 }
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .max-w-3xl {
@@ -1073,6 +1097,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .text-sm {
@@ -1094,7 +1121,7 @@ body {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 1.875rem; /* Increased line height */
 }
 
 .px-8 {
@@ -1317,8 +1344,8 @@ body {
 }
 
 .from-blue-600 {
-  --tw-gradient-from: #007bff;
-  --tw-gradient-to: #007bff;
+  --tw-gradient-from: #2563eb;
+--tw-gradient-to: #7c3aed;
 }
 
 .to-purple-600 {
@@ -1481,6 +1508,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 #root {
@@ -1529,6 +1557,10 @@ body {
 
 .max-w-4xl {
   max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem; /* Added padding */
+  padding-right: 2rem; /* Added padding */
 }
 
 .mx-auto {
@@ -1572,6 +1604,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .flex {
@@ -1671,11 +1706,11 @@ body {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 1.875rem; /* Increased line height */
 }
 
 .leading-relaxed {
-  line-height: 1.625;
+  line-height: 1.8; /* Increased line height */
 }
 
 .bg-blue-100 {
@@ -1792,6 +1827,9 @@ body {
 
 .text-gray-600 {
   color: #4a5568;
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
 }
 
 .bg-blue-600 {
@@ -1859,8 +1897,8 @@ body {
 }
 
 .from-blue-600 {
-  --tw-gradient-from: #007bff;
-  --tw-gradient-to: #007bff;
+  --tw-gradient-from: #2563eb;
+--tw-gradient-to: #7c3aed;
 }
 
 .to-purple-600 {
@@ -1878,7 +1916,7 @@ body {
 
 .text-xl {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 2rem; /* Increased line height */
 }
 
 .flex-col {
@@ -2022,4 +2060,32 @@ body {
 .kiln-button:hover {
   background-color: rgb(51, 51, 51);
 }
+
+
+
+.kiln-button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kiln-button:hover {
+  background-color: #333;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+
 

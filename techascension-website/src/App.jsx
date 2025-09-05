@@ -53,33 +53,33 @@ function App() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : 'bg-transparent'
       }`}>
-        <div className="max-w-7xl mx-auto px-6 py-4">
+        <div className="max-w-7xl mx-auto px-8 py-6">
           <div className="flex items-center justify-between">
             <div className="text-2xl font-bold text-gray-900">
               TechAscension
             </div>
-            <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-12">
               <button 
                 onClick={() => scrollToSection('program')}
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors no-underline"
               >
                 Program
               </button>
               <button 
                 onClick={() => scrollToSection('results')}
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors no-underline"
               >
                 Results
               </button>
               <button 
                 onClick={() => scrollToSection('testimonials')}
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors no-underline"
               >
                 Success Stories
               </button>
               <button 
                 onClick={() => scrollToSection('faq')}
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-600 hover:text-gray-900 transition-colors no-underline"
               >
                 FAQ
               </button>
@@ -95,7 +95,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
+      <section className="pt-40 pb-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-4xl mx-auto">
             <p className="text-center text-gray-600 mb-8">
@@ -103,7 +103,7 @@ function App() {
             </p>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
               Land Your Dream Tech Role in{' '}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
                 60 Days
               </span>
             </h1>
@@ -129,7 +129,7 @@ function App() {
                 See Our Results
               </Button>
             </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-2 text-sm text-gray-500 mt-8">
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-2 text-sm text-gray-500 mt-16">
               <div className="flex -space-x-2">
                 <img src={Person1} alt="Person 1" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
                 <img src={person2} alt="Person 2" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
@@ -149,7 +149,7 @@ function App() {
       </section>
 
       {/* Social Proof Bar */}
-      <section id="social-proof" className="py-16 bg-gray-50">
+      <section id="social-proof" className="py-32 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-center text-gray-600 mb-8">
             Our candidates have landed at these elite tech companies
@@ -167,32 +167,32 @@ function App() {
       </section>
 
       {/* Problem Section */}
-      <section className="py-20 px-6">
+      <section className="py-24 px-8 border-b border-gray-200">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-8">
             Tired of Applying and Getting Ghosted?
           </h2>
           <div className="grid md:grid-cols-1 gap-8 text-left">
             <div className="space-y-6">
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You're ready to break into high-paying tech sales but don't have a step-by-step system to get there
                 </p>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You've been applying online and getting ghosted because you're stuck in the broken HR application process
                 </p>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You want to bypass traditional recruiting and get directly in front of hiring managers at elite companies
                 </p>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You're looking for proven interview strategies and personal mentorship from someone who's actually walked this path
@@ -204,7 +204,7 @@ function App() {
       </section>
 
       {/* Solution Section */}
-      <section id="program" className="py-20 px-6 bg-gray-50">
+      <section id="program" className="py-24 px-8 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-blue-100 text-blue-800">OUR PROCESS</Badge>
@@ -256,7 +256,7 @@ function App() {
       </section>
 
       {/* Results Section */}
-      <section id="results" className="py-20 px-6">
+      <section id="results" className="py-24 px-8 border-b border-gray-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -295,7 +295,7 @@ function App() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 px-6 bg-gray-50">
+      <section id="testimonials" className="py-24 px-8 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -369,7 +369,7 @@ function App() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 px-6">
+      <section id="faq" className="py-24 px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">

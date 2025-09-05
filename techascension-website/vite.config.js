@@ -9,7 +9,8 @@ export default defineConfig({
   server: {
     host: true,
     allowedHosts: [
-      '5173-injsmkhg5uwaz0ajm60t8-ce9266d7.manus.computer'
+      '5173-injsmkhg5uwaz0ajm60t8-ce9266d7.manus.computer',
+      '5174-injsmkhg5uwaz0ajm60t8-ce9266d7.manus.computer'
     ],
   },
   resolve: {

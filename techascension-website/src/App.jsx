@@ -85,7 +85,7 @@ function App() {
               </button>
               <Button 
                 onClick={() => scrollToSection('cta')}
-                className="bg-black text-white hover:bg-gray-800"
+                className="kiln-button"
               >
                 Schedule A Call
               </Button>
@@ -129,7 +129,7 @@ function App() {
                 See Our Results
               </Button>
             </div>
-            <div className="flex items-center justify-center space-x-2 text-sm text-gray-500">
+            <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-2 text-sm text-gray-500 mt-8">
               <div className="flex -space-x-2">
                 <img src={Person1} alt="Person 1" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
                 <img src={person2} alt="Person 2" className="w-8 h-8 rounded-full border-2 border-white object-cover" />
@@ -175,25 +175,25 @@ function App() {
           <div className="grid md:grid-cols-1 gap-8 text-left">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You're ready to break into high-paying tech sales but don't have a step-by-step system to get there
                 </p>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You've been applying online and getting ghosted because you're stuck in the broken HR application process
                 </p>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You want to bypass traditional recruiting and get directly in front of hiring managers at elite companies
                 </p>
               </div>
               <div className="flex items-start space-x-4">
-                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0" />
                 <p className="text-lg text-gray-700">
                   You're looking for proven interview strategies and personal mentorship from someone who's actually walked this path
                 </p>
@@ -285,7 +285,7 @@ function App() {
           <div className="text-center mt-12">
             <Button 
               size="lg" 
-              className="bg-black text-white hover:bg-gray-800"
+              className="kiln-button"
               onClick={() => scrollToSection('cta')}
             >
               Schedule A Call

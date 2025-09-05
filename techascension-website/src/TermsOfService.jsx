@@ -1,60 +1,84 @@
 import React from 'react';
-import { Link } from './Router';
 
-function TermsOfService() {
+const TermsOfService = () => {
   return (
-    <div className="min-h-screen bg-white text-gray-800 p-8">
-      <nav className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-sm shadow-sm py-4 px-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <Link to="/" className="text-2xl font-bold text-gray-900">
-            TechAscension
-          </Link>
+    <div className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto">
+        <h1 className="text-3xl font-extrabold text-gray-900">TERMS AND CONDITIONS</h1>
+        <p className="mt-4 text-lg text-gray-600">This website (the “Site”) is owned and operated by Tech Ascension (“Tech Ascension,” “we” or “us”). By using the Site, you agree to be bound by these Terms of Service and to use the Site in accordance with these Terms of Service, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from Tech Ascension. Accessing the Site, in any manner, whether automated or otherwise, constitutes use of the Site and your agreement to be bound by these Terms of Service.</p>
+        
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">General</h2>
+          <p className="mt-2 text-gray-600">We reserve the right to change these Terms of Service or to impose new conditions on use of the Site, from time to time, in which case we will post the revised Terms of Service on this website. By continuing to use the Site after we post any such changes, you accept the Terms of Service, as modified. Intellectual Property Rights</p>
         </div>
-      </nav>
-      <div className="max-w-4xl mx-auto pt-24 pb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Terms of Service</h1>
-        <p className="mb-4"><strong>Effective Date: September 5, 2025</strong></p>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Acceptance of Terms</h2>
-        <p className="mb-4">By accessing and using the website <a href="https://www.techascension.com" class="text-blue-600 hover:underline">www.techascension.com</a> and our services, you agree to be bound by these Terms of Service and all terms incorporated by reference. If you do not agree to all of these terms, do not use our website or services.</p>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">Our limited license to you</h2>
+          <p className="mt-2 text-gray-600">This Site and all the materials available on the Site are the property of us and/or our affiliates or licensors, and are protected by copyright, trademark, and other intellectual property laws. The Site is provided solely for your personal noncommercial use. You may not use the Site or the materials available on the Site in a manner that constitutes an infringement of our rights or that has not been authorized by us. More specifically, unless explicitly authorized in these Terms of Service or by the owner of the materials, you may not modify, copy, reproduce, republish, upload, post, transmit, translate, sell, create derivative works, exploit, or distribute in any manner or medium (including by email or other electronic means) any material from the Site. You may, however, from time to time, download and/or print one copy of individual pages of the Site for your personal, non-commercial use, provided that you keep intact all copyright and other proprietary notices.</p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Services Description</h2>
-        <p className="mb-4">TechAscension provides coaching and mentorship services aimed at helping individuals secure high-paying tech roles. Our services include, but are not limited to, strategic positioning, interview mastery, and salary negotiation guidance.</p>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">Your license to us</h2>
+          <p className="mt-2 text-gray-600">By posting or submitting any material (including, without limitation, comments, blog entries, Facebook postings, photos and videos) to us via the Site, internet groups, social media venues, or to any of our staff via email, text or otherwise, you are representing: (i) that you are the owner of the material, or are making your posting or submission with the express consent of the owner of the material; and (ii) that you are thirteen years of age or older. In addition, when you submit, email, text or deliver or post any material, you are granting us, and anyone authorized by us, a royalty-free, perpetual, irrevocable, non-exclusive, unrestricted, worldwide license to use, copy, modify, transmit, sell, exploit, create derivative works from, distribute, and/or publicly perform or display such material, in whole or in part, in any manner or medium, now known or hereafter developed, for any purpose. The foregoing grant shall include the right to exploit any proprietary rights in such posting or submission, including, but not limited to, rights under copyright, trademark, service mark or patent laws under any relevant jurisdiction. Also, in connection with the exercise of such rights, you grant us, and anyone authorized by us, the right to identify you as the author of any of your postings or submissions by name, email address or screen name, as we deem appropriate.</p>
+          <p className="mt-2 text-gray-600">You acknowledge and agree that any contributions originally created by you for us shall be deemed a “work made for hire” when the work performed is within the scope of the definition of a work made for hire in Section 101 of the United States Copyright Law, as amended. As such, the copyrights in those works shall belong to Tech Ascension from their creation. Thus, Tech Ascension shall be deemed the author and exclusive owner thereof and shall have the right to exploit any or all of the results and proceeds in any and all media, now known or hereafter devised, throughout the universe, in perpetuity, in all languages, as Tech Ascension determines. In the event that any of the results and proceeds of your submissions hereunder are not deemed a “work made for hire” under Section 101 of the Copyright Act, as amended, you hereby, without additional compensation, irrevocably assign, convey and transfer to Tech Ascension all proprietary rights, including without limitation, all copyrights and trademarks throughout the universe, in perpetuity in every medium, whether now known or hereafter devised, to such material and any and all right, title and interest in and to all such proprietary rights in every medium, whether now known or hereafter devised, throughout the universe, in perpetuity. Any posted material which are reproductions of prior works by you shall be co-owned by us.</p>
+          <p className="mt-2 text-gray-600">You acknowledge that Tech Ascension has the right but not the obligation to use and display any postings or contributions of any kind and that Tech Ascension may elect to cease the use and display of any such materials (or any portion thereof), at any time for any reason whatsoever.</p>
+          <p className="mt-2 text-gray-600">Limitations on Linking and Framing. You may establish a hypertext link to the Site so long as the link does not state or imply any sponsorship of your site by us or by the Site. However, you may not, without our prior written permission, frame or inline link any of the content of the Site, or incorporate into another website or other service any of our material, content or intellectual property.</p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">3. User Obligations</h2>
-        <p className="mb-4">As a user of our website and services, you agree to:</p>
-        <ul className="list-disc list-inside mb-4 ml-4">
-          <li>Provide accurate and complete information when requested.</li>
-          <li>Use the services only for lawful purposes and in accordance with these Terms.</li>
-          <li>Maintain the confidentiality of any account credentials.</li>
-          <li>Not engage in any activity that interferes with or disrupts the website or services.</li>
-        </ul>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">Disclaimers</h2>
+          <p className="mt-2 text-gray-600">Throughout the Site, we may provide links and pointers to Internet sites maintained by third parties. Our linking to such third-party sites does not imply an endorsement or sponsorship of such sites, or the information, products or services offered on or through the sites. In addition, neither we nor affiliates operate or control in any respect any information, products or services that third parties may provide on or through the Site or on websites linked to by us on the Site. If applicable, any opinions, advice, statements, services, offers, or other information or content expressed or made available by third parties, including information providers, are those of the respective authors or distributors, and not Tech Ascension. Neither Tech Ascension nor any third-party provider of information guarantees the accuracy, completeness, or usefulness of any content. Furthermore, Tech Ascension neither endorses nor is responsible for the accuracy and reliability of any opinion, advice, or statement made on any of the Sites by anyone other than an authorized Tech Ascension representative while acting in his/her official capacity.</p>
+          <p className="mt-2 text-gray-600">THE INFORMATION, PRODUCTS AND SERVICES OFFERED ON OR THROUGH THE SITE AND BY Tech Ascension AND ANY THIRD-PARTY SITES ARE PROVIDED “AS IS” AND WITHOUT WARRANTIES OF ANY KIND EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. WE DO NOT WARRANT THAT THE SITE OR ANY OF ITS FUNCTIONS WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT ANY PART OF THIS SITE, INCLUDING BULLETIN BOARDS, OR THE SERVERS THAT MAKE IT AVAILABLE, ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.</p>
+          <p className="mt-2 text-gray-600">WE DO NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE SITE OR MATERIALS ON THIS SITE OR ON THIRD-PARTY SITES IN TERMS OF THEIR CORRECTNESS, ACCURACY, TIMELINESS, RELIABILITY OR OTHERWISE.</p>
+          <p className="mt-2 text-gray-600">You agree at all times to defend, indemnify and hold harmless Tech Ascension its affiliates, their successors, transferees, assignees and licensees and their respective parent and subsidiary companies, agents, associates, officers, directors, shareholders and employees of each from and against any and all claims, causes of action, damages, liabilities, costs and expenses, including legal fees and expenses, arising out of or related to your breach of any obligation, warranty, representation or covenant set forth herein.</p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Payment and Refunds</h2>
-        <p className="mb-4">Details regarding payment for our services, including pricing, billing cycles, and accepted payment methods, will be provided separately or during the consultation process. Our refund policy, including any money-back guarantees, will be clearly communicated to you before enrollment in any program.</p>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">Online commerce</h2>
+          <p className="mt-2 text-gray-600">Certain sections of the Site may allow you to purchase many different types of products and services online that are provided by third parties. We are not responsible for the quality, accuracy, timeliness, reliability or any other aspect of these products and services. If you make a purchase from a merchant on the Site or on a site linked to by the Site, the information obtained during your visit to that merchant’s online store or site, and the information that you give as part of the transaction, such as your credit card number and contact information, may be collected by both the merchant and us. A merchant may have privacy and data collection practices that are different from ours. We have no responsibility or liability for these independent policies. In addition, when you purchase products or services on or through the Site, you may be subject to additional terms and conditions that specifically apply to your purchase or use of such products or services. For more information regarding a merchant, its online store, its privacy policies, and/or any additional terms and conditions that may apply, visit that merchant’s website and click on its information links or contact the merchant directly. You release us and our affiliates from any damages that you incur, and agree not to assert any claims against us or them, arising from your purchase or use of any products or services made available by third parties through the Site.</p>
+          <p className="mt-2 text-gray-600">Your participation, correspondence or business dealings with any third party found on or through our Site, regarding payment and delivery of specific goods and services, and any other terms, conditions, representations or warranties associated with such dealings, are solely between you and such third party. You agree that Tech Ascension shall not be responsible or liable for any loss, damage, or other matters of any sort incurred as the result of such dealings.</p>
+          <p className="mt-2 text-gray-600">You agree to be financially responsible for all purchases made by you or someone acting on your behalf through the Site. You agree to use the Site and to purchase services or products through the Site for legitimate, non-commercial purposes only. You also agree not to make any purchases for speculative, false or fraudulent purposes or for the purpose of anticipating demand for a particular product or service. You agree to only purchase goods or services for yourself or for another person for whom you are legally permitted to do so. When making a purchase for a third party that requires you to submit the third party’s personal information to us or a merchant, you represent that you have obtained the express consent of such third party to provide such third party’s personal information.</p>
+          <p className="mt-2 text-gray-600">Your purchase is for personal use only. Sharing of purchases is not permitted and will be considered unauthorized, an infringing use of our copyrighted material, and may subject violators to liability. If payment for a course is declined, our system will automatically disable access to our premium materials. (We understand. This usually happens because a credit card expires.) We want to help restore your access, so we’ll make every attempt to contact you to help resolve this issue. Once the billing issue is resolved, we’ll restore access.</p>
+        </div>
 
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Intellectual Property</h2>
-        <p className="mb-4">All content on this website, including text, graphics, logos, images, and software, is the property of TechAscension or its content suppliers and protected by intellectual property laws. You may not reproduce, distribute, modify, or create derivative works of any content without our express written permission.</p>
-
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Disclaimers and Limitation of Liability</h2>
-        <p className="mb-4">Our website and services are provided on an "as is" and "as available" basis. TechAscension makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
-        <p className="mb-4">In no event shall TechAscension or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption ) arising out of the use or inability to use the materials on our website, even if TechAscension or a TechAscension authorized representative has been notified orally or in writing of the possibility of such damage.</p>
-
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Governing Law</h2>
-        <p className="mb-4">These terms and conditions are governed by and construed in accordance with the laws of [Your State/Country] and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
-
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">8. Changes to These Terms</h2>
-        <p className="mb-4">We reserve the right to revise these Terms of Service at any time. We will notify you of any changes by posting the new Terms of Service on this page. By continuing to access or use our website after those revisions become effective, you agree to be bound by the revised terms.</p>
-
-        <h2 className="text-2xl font-bold text-gray-900 mb-4">9. Contact Us</h2>
-        <p className="mb-4">If you have any questions about these Terms, please contact us:</p>
-        <ul className="list-disc list-inside mb-4 ml-4">
-          <li>By email: [Your Contact Email]</li>
-          <li>By visiting this page on our website: <a href="https://www.techascension.com/contact" class="text-blue-600 hover:underline">www.techascension.com/contact</a></li>
-        </ul>
+        <div className="mt-8">
+          <h2 className="text-2xl font-bold text-gray-900">Interactive features</h2>
+          <p className="mt-2 text-gray-600">This Site may include a variety of features, such as bulletin boards, web logs, chat rooms, and email services, which allow feedback to us and real-time interaction between users, and other features which allow users to communicate with others. Responsibility for what is posted on bulletin boards, web logs, chat rooms, and other public posting areas on the Site, or sent via any email services on the Site, lies with each user – you alone are responsible for the material you post or send. We do not control the messages, information or files that you or others may provide through the Site. It is a condition of your use of the Site that you do not:</p>
+          <ul className="list-disc list-inside mt-2 text-gray-600">
+            <li>Restrict or inhibit any other user from using and enjoying the Site.</li>
+            <li>Use the Site to impersonate any person or entity, or falsely state or otherwise misrepresent your affiliation with a person or entity.</li>
+            <li>Interfere with or disrupt any servers or networks used to provide the Site or its features, or disobey any requirements, procedures, policies or regulations of the networks we use to provide the Site.</li>
+            <li>Use the Site to instigate or encourage others to commit illegal activities or cause injury or property damage to any person.</li>
+            <li>Gain unauthorized access to the Site, or any account, computer system, or network connected to this Site, by means such as hacking, password mining or other illicit means.</li>
+            <li>Obtain or attempt to obtain any materials or information through any means not intentionally made available through this Site.</li>
+            <li>Use the Site to post or transmit any unlawful, threatening, abusive, libelous, defamatory, obscene, vulgar, pornographic, profane or indecent information of any kind, including without limitation any transmissions constituting or encouraging conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate any local, state, national or international law.</li>
+            <li>Use the Site to post or transmit any information, software or other material that violates or infringes upon the rights of others, including material that is an invasion of privacy or publicity rights or that is protected by copyright, trademark or other proprietary right, or derivative works with respect thereto, without first obtaining permission from the owner or rights holder.</li>
+            <li>Use the Site to post or transmit any information, software or other material that contains a virus or other harmful component.</li>
+            <li>Use the Site to post, transmit or in any way exploit any information, software or other material for commercial purposes, or that contains advertising.</li>
+            <li>Use the Site to advertise or solicit to anyone to buy or sell products or services, or to make donations of any kind, without our express written approval.</li>
+            <li>Gather for marketing purposes any email addresses or other personal information that has been posted by other users of the Site.</li>
+          </ul>
+          <p className="mt-2 text-gray-600">Tech Ascension may host message boards, chats and other public forums on its Sites. Any user failing to comply with the terms and conditions of this Agreement may be expelled from and refused continued access to, the message boards, chats or other public forums in the future. Tech Ascension or its designated agents may remove or alter any user-created content at any time for any reason. Message boards, chats and other public forums are intended to serve as discussion centers for users and subscribers. Information and content posted within these public forums may be provided by Tech Ascension staff, Tech Ascension’s outside contributors, or by users not connected with Tech Ascension, some of whom may employ anonymous user names. Tech Ascension expressly disclaims all responsibility and endorsement and makes no representation as to the validity of any opinion, advice, information or statement made or displayed in these forums by third parties, nor are we responsible for any errors or omissions in such postings, or for hyperlinks embedded in any messages. Under no circumstances will we, our affiliates, suppliers or agents be liable for any loss or damage caused by your reliance on information obtained through these forums. The opinions expressed in these forums are solely the opinions of the participants, and do not reflect the opinions of Tech Ascension or any of its subsidiaries or affiliates.</p>
+          <p className="mt-2 text-gray-600">Tech Ascension has no obligation whatsoever to monitor any of the content or postings on the message boards, chat rooms or other public forums on the Sites. However, you acknowledge and agree that we have the absolute right to monitor the same at our sole discretion. In addition, we reserve the right to alter, edit, refuse to post or remove any postings or content, in whole or in part, for any reason and to disclose such materials and the circumstances surrounding their transmission to any third party in order to satisfy any applicable law, regulation, legal process or governmental request and to protect ourselves, our clients, sponsors, users and visitors.</p>
+          <p className="mt-2 text-gray-600">We occasionally include access to an online community as part of our programs. We want every single member to adhere to the following rules:</p>
+          <ul className="list-disc list-inside mt-2 text-gray-600">
+            <li>Be respectful and courteous to other members.</li>
+            <li>Do not post any offensive, defamatory, or inappropriate content.</li>
+            <li>Do not engage in any form of harassment or bullying.</li>
+            <li>Do not promote any illegal activities or products.</li>
+            <li>Do not share any personal or confidential information about yourself or others.</li>
+            <li>Do not spam the forums with unsolicited messages or advertisements.</li>
+            <li>Do not impersonate any other member or staff.</li>
+            <li>Do not violate any intellectual property rights.</li>
+            <li>Do not engage in any activity that disrupts the community or its members.</li>
+          </ul>
+          <p className="mt-2 text-gray-600">Failure to adhere to these rules may result in suspension or termination of your access to the online community.</p>
+        </div>
       </div>
     </div>
-   );
-}
+  );
+};
 
 export default TermsOfService;
+
+

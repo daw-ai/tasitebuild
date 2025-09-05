@@ -9,7 +9,7 @@ export const Link = ({ to, children, className }) => {
     navigate(to);
   };
   return (
-    <a href={to} onClick={handleClick} className={className}>
+    <a href={to} onClick={handleClick} className={`${className} no-underline`}>
       {children}
     </a>
   );
